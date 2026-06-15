@@ -1,0 +1,34 @@
+/* ตั้งค่าพื้นหลังสีเทาอ่อน และปรับฟอนต์ให้อ่านง่าย */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9ecef; 
+}
+
+
+header, footer {
+    background-color: #0000ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 20px auto; 
+}
+
+
+.biography, .achievements {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* ทำให้ขอบมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.biography:hover, .achievements:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
